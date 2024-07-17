@@ -122,14 +122,8 @@ export function submitForm(form) {
 
 function singleService(fd,qpString,payloadString){
   var myHeaders = new Headers();
-  myHeaders.append("Content-Type", "text/plain");
+
   myHeaders.append("Access-Control-Allow-Origin","*");
-  myHeaders.append("User-Agent", "PostmanRuntime/7.35.0");
-  myHeaders.append("Accept", "*/*");
-  myHeaders.append("Postman-Token", "4c08245e-0f54-4bf8-b505-67f9a63dfaa8");
-  myHeaders.append("Host", "web-takeda-uat.epsilon.com");
-  myHeaders.append("Accept-Encoding", "gzip, deflate, br");
-  myHeaders.append("allowedOrigins","*");
   myHeaders.append("crossDomain","true");
   myHeaders.append('Content-Type','application/json')
 
